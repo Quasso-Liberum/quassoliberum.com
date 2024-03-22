@@ -58,14 +58,14 @@ const Desktop = () => {
       <div className="absolute  -z-10 backdrop-blur w-full h-full" />
 
       <div className="absolute -z-10 bg-gradient-to-t  from-black to-transparent w-full h-full"></div>
-      <div className=" flex-col h-full flex items-end justify-end pr-20 pb-20 ">
+      <div className=" flex-col h-full flex items-end justify-end pl-20 pb-20 ">
         <Link
           className="group flex flex-col"
           href="https://docs.google.com/forms/d/e/1FAIpQLSf9tq4YnC6vKxqz0jFPNp53-cHhs6ieBLU7Et1fkYIZhaxOcA/viewform?usp=sf_link"
         >
           <Image
             className="group-hover:translate-x-5 flex items-end  group-hover:-translate-y-5 transition-all duration-500"
-            src="/images/Group2.png"
+            src="/images/Group.png"
             width={250}
             height={250}
             alt="arrow"
