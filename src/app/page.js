@@ -27,6 +27,7 @@ export default function Home() {
       <div className="w-screen h-[100svh]  bg-black flex justify-center items-center">
         <video className="" loop autoPlay playsInline muted>
           <source src="/soon.webm" type="video/webm" />
+          <source src="/soon.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
