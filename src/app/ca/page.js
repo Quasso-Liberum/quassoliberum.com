@@ -64,7 +64,7 @@ const Desktop = () => {
           href="https://docs.google.com/forms/d/e/1FAIpQLSf9tq4YnC6vKxqz0jFPNp53-cHhs6ieBLU7Et1fkYIZhaxOcA/viewform?usp=sf_link"
         >
           <Image
-            className="group-hover:translate-x-5 flex items-end  group-hover:-translate-y-5 transition-all duration-500"
+            className=" group-hover:translate-x-5 flex items-end  group-hover:-translate-y-5 transition-all duration-500"
             src="/images/Group.png"
             width={250}
             height={250}
@@ -93,7 +93,7 @@ const Mobile = () => {
         <span className="">Ambassadors</span>
       </p>
       <Link className="group" href="https://docs.google.com/forms/d/e/1FAIpQLSf9tq4YnC6vKxqz0jFPNp53-cHhs6ieBLU7Et1fkYIZhaxOcA/viewform?usp=sf_link" >
-        <Image src="/images/Group.png" width={150} height={150} className="drop-shadow-xl animate-pulse" alt="arrow" />
+        <Image src="/images/Group.png" width={150} height={150} className=" drop-shadow-xl animate-pulse" alt="arrow" />
       </Link>
     </div>
   )

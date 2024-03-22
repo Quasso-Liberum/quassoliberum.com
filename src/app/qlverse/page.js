@@ -53,7 +53,7 @@ const Mobile = () => {
       <div className="absolute  -z-10 backdrop-blur-xl w-screen h-screen" />
       <Image className="-z-20 " src="/images/qlverse_poster1.png" alt="xdfsd" fill />
 
-      <Image className="rounded-xl py-10 drop-shadow-lg  object-cover" width={250} height={250} src="/images/qlverse_poster1.png" alt="poster" />
+      <Image className="rounded-xl my-10 drop-shadow-lg  object-cover" width={250} height={250} src="/images/qlverse_poster1.png" alt="poster" />
 
       <p className="text-5xl text-white text-center">
         Call for <br />
