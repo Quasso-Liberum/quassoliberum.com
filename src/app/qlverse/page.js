@@ -21,6 +21,9 @@ const Desktop = () => {
         <Image className=" object-cover h-full" src="/images/qlverse.png" alt="xdfsd" fill />
       </div>
 
+            <div className="absolute  -z-10 backdrop-blur w-full h-full" />
+
+
       <div className="absolute -z-10 bg-gradient-to-t  from-black to-transparent w-full h-full"></div>
       <div className=" flex-col h-full flex justify-end pl-20 pb-20 ">
         <Link
@@ -47,7 +50,7 @@ const Mobile = () => {
   return (
     <div className="lg:hidden   justify-center items-center px-5 flex flex-col h-screen w-screen">
       <Image className="-z-20 " src="/images/mo_bg.png" alt="xdfsd" fill />
-      <div className="absolute  -z-10 backdrop-blur-xl w-full h-full" />
+      <div className="absolute  -z-10 backdrop-blur-xl w-screen h-screen" />
       <Image className="-z-20 " src="/images/qlverse_poster1.png" alt="xdfsd" fill />
 
       <Image className="rounded-xl py-10 drop-shadow-lg  object-cover" width={250} height={250} src="/images/qlverse_poster1.png" alt="poster" />
@@ -57,7 +60,7 @@ const Mobile = () => {
         <span className="">Projects</span>
       </p>
       <Link className="group" href="https://docs.google.com/forms/d/e/1FAIpQLSeE-muzAxfgQ2oiDxdQ_z3LwZiRWRdfhqjRXVJlMKCXbYO4-Q/viewform" >
-        <Image src="/images/Group.png" width={150} height={150} className="drop-shadow-xl" alt="arrow" />
+        <Image src="/images/Group.png" width={150} height={150} className="drop-shadow-xl animate-pulse" alt="arrow" />
       </Link>
     </div>
   )

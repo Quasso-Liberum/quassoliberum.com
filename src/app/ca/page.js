@@ -55,7 +55,7 @@ const Desktop = () => {
 
         <Image className=" object-fill h-full" src="/images/ambass.png" alt="xdfsd" fill />
       </div>
-      <div className="absolute  -z-10 backdrop-blur-sm w-full h-full" />
+      <div className="absolute  -z-10 backdrop-blur w-full h-full" />
 
       <div className="absolute -z-10 bg-gradient-to-t  from-black to-transparent w-full h-full"></div>
       <div className=" flex-col h-full flex items-end justify-end pr-20 pb-20 ">
@@ -71,7 +71,7 @@ const Desktop = () => {
             alt="arrow"
           />
 
-          <p className="text-[9em] text-white">Call for Ambassadors</p>
+          <p className="text-9xl text-white">Call for Ambassadors</p>
         </Link>
       </div>
     </div>)
@@ -83,17 +83,17 @@ const Mobile = () => {
   return (
     <div className="lg:hidden   justify-center items-center px-5 flex flex-col h-screen w-screen">
       <Image className="-z-20 " src="/images/mo_bg.png" alt="xdfsd" fill />
-      <div className="absolute  -z-10 backdrop-blur-xl w-full h-full" />
+      <div className="absolute  -z-10 backdrop-blur-xl w-screen h-screen" />
       <Image className="-z-20 " src="/images/ambass_poster.png" alt="xdfsd" fill />
 
-      <Image className="rounded-xl py-10 drop-shadow-lg  object-cover" width={250} height={250} src="/images/qlverse_poster1.png" alt="poster" />
+      <Image className="rounded-xl my-10 drop-shadow-lg "  width={250} height={250} src="/images/ambass_poster.png" alt="poster" />
 
-      <p className="text-5xl text-white text-center">
+      <p className="text-5xl px-4 text-white text-center">
         Call for <br />
         <span className="">Ambassadors</span>
       </p>
       <Link className="group" href="https://docs.google.com/forms/d/e/1FAIpQLSf9tq4YnC6vKxqz0jFPNp53-cHhs6ieBLU7Et1fkYIZhaxOcA/viewform?usp=sf_link" >
-        <Image src="/images/Group.png" width={150} height={150} className="drop-shadow-xl" alt="arrow" />
+        <Image src="/images/Group.png" width={150} height={150} className="drop-shadow-xl animate-pulse" alt="arrow" />
       </Link>
     </div>
   )
