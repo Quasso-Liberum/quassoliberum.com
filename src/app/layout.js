@@ -1,15 +1,13 @@
-import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
 const base = localFont({
   src: [
     {
       path: "../../public/font/base.ttf",
-    }
-  ]
-})
+    },
+  ],
+});
 
 export const metadata = {
   title: "Quasso Liberum 11",

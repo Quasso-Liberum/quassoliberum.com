@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 // export default function Home() {
 //   return (
 //     // <main className="w-screen flex-col h-screen bg-white justify-center flex items-center">
@@ -13,7 +11,7 @@ import Image from "next/image";
 
 //       <video className=" md:rotate-0 rotate-90" loop autoPlay playsInline >
 //       <source src="/soon.webm" type="video/webm" />
-      
+
 //       Your browser does not support the video tag.
 //     </video>
 //     </div>
@@ -21,16 +19,30 @@ import Image from "next/image";
 //   );
 // }
 
+// export default function Home() {
+//   return (
+//     <>
+//       <div className="w-screen h-[100svh]  bg-[#05090d] flex justify-center items-center">
+//         <video className="" loop autoPlay playsInline muted>
+//           <source src="/soon.webm" type="video/webm" />
+//           <source src="/soon.mp4" type="video/mp4" />
+//           Your browser does not support the video tag.
+//         </video>
+//       </div>
+//     </>
+//   );
+// }
+
+import Hero from "./components/Hero";
+import { Sponsers } from "./components/Sponsers";
+import { What } from "./components/What";
+
 export default function Home() {
   return (
-    <>
-      <div className="w-screen h-[100svh]  bg-[#05090d] flex justify-center items-center">
-        <video className="" loop autoPlay playsInline muted>
-          <source src="/soon.webm" type="video/webm" />
-          <source src="/soon.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </>
+    <div className="text-[#FDC501] bg-[#2B2311]">
+      <Hero />
+      <What />
+      <Sponsers />
+    </div>
   );
 }
