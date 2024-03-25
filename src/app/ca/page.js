@@ -47,13 +47,16 @@ const Page = () => {
 
 export default Page;
 
-
 const Desktop = () => {
   return (
     <div className="flex-col h-screen w-screen  lg:flex hidden">
       <div className="h-full w-full -z-20 ">
-
-        <Image className=" object-fill h-full" src="/images/ambass.png" alt="xdfsd" fill />
+        <Image
+          className=" object-fill h-full"
+          src="/images/ambass.png"
+          alt="xdfsd"
+          fill
+        />
       </div>
       <div className="absolute  -z-10 backdrop-blur w-full h-full" />
 
@@ -74,27 +77,47 @@ const Desktop = () => {
           <p className="text-9xl text-white">Call for Ambassadors</p>
         </Link>
       </div>
-    </div>)
-}
-
-
+    </div>
+  );
+};
 
 const Mobile = () => {
   return (
     <div className="lg:hidden   justify-center items-center px-5 flex flex-col h-screen w-screen">
       <Image className="-z-20 " src="/images/mo_bg.png" alt="xdfsd" fill />
       <div className="absolute  -z-10 backdrop-blur-xl w-screen h-screen" />
-      <Image className="-z-20 " src="/images/ambass_poster.png" alt="xdfsd" fill />
+      <Image
+        className="-z-20 "
+        src="/images/ambass_poster.png"
+        alt="xdfsd"
+        fill
+      />
 
-      <Image className="rounded-xl my-10 drop-shadow-lg "  width={250} height={250} src="/images/ambass_poster.png" alt="poster" />
+      <Image
+        className="rounded-xl my-10 drop-shadow-lg "
+        width={250}
+        height={250}
+        src="/images/ambass_poster.png"
+        alt="poster"
+      />
 
       <p className="text-5xl px-4 text-white text-center">
         Call for <br />
         <span className="">Ambassadors</span>
       </p>
-      <Link className="group" href="https://docs.google.com/forms/d/e/1FAIpQLSf9tq4YnC6vKxqz0jFPNp53-cHhs6ieBLU7Et1fkYIZhaxOcA/viewform?usp=sf_link" >
-        <Image src="/images/Group.png" width={150} height={150} className=" drop-shadow-xl animate-pulse" alt="arrow" />
+      <Link
+        className="group border border-[#FDC501] rounded-full p-2 mt-8 flex justify-center items-center text-white px-6"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSf9tq4YnC6vKxqz0jFPNp53-cHhs6ieBLU7Et1fkYIZhaxOcA/viewform?usp=sf_link"
+      >
+        Click here to apply
+        <Image
+          src="/images/arrow-right.png"
+          width={50}
+          height={50}
+          className="drop-shadow-xl"
+          alt="arrow"
+        />
       </Link>
     </div>
-  )
-}
+  );
+};
