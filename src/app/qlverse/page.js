@@ -74,14 +74,15 @@ const Mobile = () => {
         <span className="">Projects</span>
       </p>
       <Link
-        className="group"
+        className="group border border-[#FDC501] rounded-full p-2 mt-8 flex justify-center items-center text-white px-6"
         href="https://docs.google.com/forms/d/e/1FAIpQLSeE-muzAxfgQ2oiDxdQ_z3LwZiRWRdfhqjRXVJlMKCXbYO4-Q/viewform"
       >
+        Click here to apply
         <Image
-          src="/images/Group.png"
-          width={150}
-          height={150}
-          className="drop-shadow-xl animate-pulse"
+          src="/images/arrow-right.png"
+          width={50}
+          height={50}
+          className="drop-shadow-xl"
           alt="arrow"
         />
       </Link>
