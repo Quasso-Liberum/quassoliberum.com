@@ -1,29 +1,6 @@
 import localFont from "next/font/local";
 import { Navbar } from "./Navbar";
-
-const medium = localFont({
-  src: [
-    {
-      path: "../../../public/font/medium.ttf",
-    },
-  ],
-});
-
-const semiBold = localFont({
-  src: [
-    {
-      path: "../../../public/font/semi-bold.ttf",
-    },
-  ],
-});
-
-const light = localFont({
-  src: [
-    {
-      path: "../../../public/font/light.ttf",
-    },
-  ],
-});
+import { semiBold, light, medium } from "./Fonts";
 
 export default function Hero() {
   return (
@@ -35,10 +12,10 @@ export default function Hero() {
       <div className="px-10 flex h-[90%] flex-col justify-around">
         <div className="flex flex-col space-y-5 pt-20">
           <div className={medium.className}>
-            <p className="text-2xl">Multiverse of Innovation</p>
+            <p className="text-3xl text-[#F4D12F]">Multiverse of Innovation</p>
           </div>
-          <div className="text-8xl">Quasso</div>
-          <div className="text-8xl">Liberum</div>
+          <div className="text-9xl">Quasso</div>
+          <div className="text-9xl">Liberum</div>
           <div className={semiBold.className}>
             <p className="text-4xl">National level techfest</p>
           </div>
