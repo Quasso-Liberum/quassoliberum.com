@@ -19,30 +19,30 @@
 //   );
 // }
 
-export default function Home() {
-  return (
-    <>
-      <div className="w-screen h-[100svh]  bg-[#05090d] flex justify-center items-center">
-        <video className="" loop autoPlay playsInline muted>
-          <source src="/soon.webm" type="video/webm" />
-          <source src="/soon.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </>
-  );
-}
-
-// import Hero from "./components/Hero";
-// import { Sponsers } from "./components/Sponsers";
-// import { What } from "./components/What";
-
 // export default function Home() {
 //   return (
-//     <div className="text-[#FDC501] bg-[#2B2311]">
-//       <Hero />
-//       <What />
-//       <Sponsers />
-//     </div>
+//     <>
+//       <div className="w-screen h-[100svh]  bg-[#05090d] flex justify-center items-center">
+//         <video className="" loop autoPlay playsInline muted>
+//           <source src="/soon.webm" type="video/webm" />
+//           <source src="/soon.mp4" type="video/mp4" />
+//           Your browser does not support the video tag.
+//         </video>
+//       </div>
+//     </>
 //   );
 // }
+
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import { What } from "./components/What";
+
+export default function Home() {
+  return (
+    <div className="text-[#FDC501] bg-[#1C1B1B]">
+      <Hero />
+      <What />
+      <Footer />
+    </div>
+  );
+}
