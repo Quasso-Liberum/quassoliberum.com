@@ -33,16 +33,16 @@ export default function Home() {
   );
 }
 
+// import Footer from "./components/Footer";
 // import Hero from "./components/Hero";
-// import { Sponsers } from "./components/Sponsers";
 // import { What } from "./components/What";
 
 // export default function Home() {
 //   return (
-//     <div className="text-[#FDC501] bg-[#2B2311]">
+//     <div className="text-[#FDC501] bg-[#1C1B1B]">
 //       <Hero />
 //       <What />
-//       <Sponsers />
+//       <Footer />
 //     </div>
 //   );
 // }

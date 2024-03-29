@@ -30,10 +30,7 @@ const Desktop = () => {
 
       <div className="absolute -z-10 bg-gradient-to-t  from-black to-transparent w-full h-full"></div>
       <div className=" flex-col h-full flex justify-end pl-20 pb-20 ">
-        <Link
-          className="group"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeE-muzAxfgQ2oiDxdQ_z3LwZiRWRdfhqjRXVJlMKCXbYO4-Q/viewform"
-        >
+        <Link className="group" href="https://unstop.com/o/dj5K0wn?lb=79sIA48u">
           <Image
             className="group-hover:translate-x-5 group-hover:-translate-y-5 transition-all duration-500"
             src="/images/Group.png"
@@ -75,7 +72,7 @@ const Mobile = () => {
       </p>
       <Link
         className="group border border-[#FDC501] rounded-full p-2 mt-8 flex justify-center items-center text-white px-6"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSeE-muzAxfgQ2oiDxdQ_z3LwZiRWRdfhqjRXVJlMKCXbYO4-Q/viewform"
+        href="https://unstop.com/o/dj5K0wn?lb=79sIA48u"
       >
         Click here to apply
         <Image

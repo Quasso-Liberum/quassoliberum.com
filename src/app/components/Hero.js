@@ -1,29 +1,6 @@
 import localFont from "next/font/local";
 import { Navbar } from "./Navbar";
-
-const medium = localFont({
-  src: [
-    {
-      path: "../../../public/font/medium.ttf",
-    },
-  ],
-});
-
-const semiBold = localFont({
-  src: [
-    {
-      path: "../../../public/font/semi-bold.ttf",
-    },
-  ],
-});
-
-const light = localFont({
-  src: [
-    {
-      path: "../../../public/font/light.ttf",
-    },
-  ],
-});
+import { semiBold, light, medium } from "./Fonts";
 
 export default function Hero() {
   return (
@@ -32,24 +9,24 @@ export default function Hero() {
         <Navbar />
       </div>
 
-      <div className="flex h-[90%] flex-col justify-around">
-        <div className="flex p-28 justify-center flex-col space-y-5 items-center">
+      <div className="px-10 flex h-[90%] flex-col justify-around">
+        <div className="flex flex-col space-y-5 pt-20">
           <div className={medium.className}>
-            <p className="text-2xl pb-10">Multiverse of Innovation</p>
+            <p className="text-3xl text-[#F4D12F]">Multiverse of Innovation</p>
           </div>
-          <div className="text-6xl">Quasso</div>
-          <div className="text-6xl">Liberum</div>
+          <div className="text-9xl">Quasso</div>
+          <div className="text-9xl">Liberum</div>
           <div className={semiBold.className}>
             <p className="text-4xl">National level techfest</p>
           </div>
         </div>
         <div className="w-full h-full flex items-end">
-          <div className="flex w-full justify-between px-10">
+          <div className="flex w-full justify-between">
             <div className={light.className}>
               <p className="text-2xl">11th Edition</p>
             </div>
             <div className="pb-10">
-              <div className={semiBold}>
+              <div className={light.className}>
                 <p className="text-3xl">April</p>
                 <p className="text-3xl">18, 19, 20</p>
               </div>
