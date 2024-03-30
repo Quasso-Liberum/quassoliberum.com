@@ -1,10 +1,17 @@
-import localFont from "next/font/local";
 import { Navbar } from "./Navbar";
 import { semiBold, light, medium } from "./Fonts";
+import Image from "next/image";
 
 export default function Hero() {
+  return <>
+    <Desktop />
+    <Mobile />
+  </>;
+}
+
+const Desktop = () => {
   return (
-    <div className="h-[100svh]">
+    <div className="h-[100svh] hidden lg:flex lg:flex-col">
       <div className="h-[10%] pl-10 pt-10">
         <Navbar />
       </div>
@@ -36,4 +43,37 @@ export default function Hero() {
       </div>
     </div>
   );
+};
+
+const Mobile = () => {
+  return (
+    <div className="lg:hidden h-screen flex flex-col space-y-10 justify-center items-center">
+      <div className="pb-10">
+        <Image src="/images/QL.png" width={60} height={60} alt="ql logo" />
+      </div>
+      <div className="w-full flex flex-col space-y-3">
+        <p className="text-6xl w-full flex justify-center">
+          Quasso
+        </p>
+        <p className="text-6xl flex justify-center">
+          Liberum
+        </p>
+      </div>
+      <div className={light.className}>
+        <p className="text-2xl">National Level Techfest</p>
+      </div>
+
+      <div className="mt-28">
+        <div className={light.className}>
+          <p className="text-2xl italic w-full flex justify-center">
+            April
+          </p>
+          <p className="text-2xl italic">
+            18, 19 & 20
+          </p>
+        </div>
+      </div>
+
+    </div>
+  )
 }
