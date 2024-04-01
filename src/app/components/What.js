@@ -24,8 +24,8 @@ export const What = () => {
 
 const Desktop = () => {
     return (
-        <div className="hidden h-screen lg:flex lg: flex-col space-y-20 justify-center items-center">
-            <div className="flex px-10">
+        <div className="flex-col items-center justify-center hidden h-screen space-y-20 lg:flex lg:">
+            <div className="flex px-16">
                 <div className="space-y-3 mr-28">
                     <div className="text-4xl">
                         What is
@@ -37,7 +37,7 @@ const Desktop = () => {
                         Liberum
                     </div>
                 </div>
-                <div className="bg-gradient-to-br text-[#F4D12F] border border-[#F4D12F] from-[#201F1E] to-[#585237] text-2xl p-32 rounded-2xl">
+                <div className="bg-gradient-to-br text-[#F4D12F] border border-[#F4D12F] from-[#201f1e7a]  to-[#58523733] backdrop:blur-lg text-2xl p-32 rounded-2xl">
                     <p className={regular.className}>
                         Quasso Liberum is a unifying campaign inspiring each CEVian to focus their gaze upon progress, invention and technology. Playing the role of an opportunity to students, Quasso Liberum prolongs its legacy by inciting creativity and strengthening vision with each successive year.
                     </p>
@@ -59,7 +59,7 @@ const Desktop = () => {
 
 const Mobile = () => {
     return (
-        <div className="lg:hidden flex flex-col h-screen items-center justify-center">
+        <div className="flex flex-col items-center justify-center h-screen lg:hidden">
             <div className="flex flex-col items-center">
                 <div className="text-3xl italic">
                     <div className={light.className}>

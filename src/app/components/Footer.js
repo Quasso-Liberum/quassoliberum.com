@@ -12,7 +12,7 @@ export default function Footer() {
 
 const Desktop = () => {
     return (
-        <div className="hidden lg:flex w-full justify-between px-10 py-10">
+        <div className="hidden lg:flex w-full justify-between px-16 py-10">
             <div className={semiBold.className}>
                 <div className="flex flex-col space-y-3">
                     <p className="text-3xl">

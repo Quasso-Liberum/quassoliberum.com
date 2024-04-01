@@ -41,8 +41,6 @@ import Hero from "./components/Hero";
 import { What } from "./components/What";
 import "./cursor.css";
 import Workshops from "./components/Workshops";
-import Competitions from "./components/Competitions";
-import Games from "./components/Games";
 
 
 export default function Home() {
@@ -72,8 +70,6 @@ export default function Home() {
         <Hero />
         <What />
         <Workshops /> 
-        <Competitions />
-        <Games />
         <Footer />
       </div>
     </div>
