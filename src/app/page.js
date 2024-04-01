@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 // export default function Home() {
 //   return (
 //     // <main className="w-screen flex-col h-screen bg-white justify-center flex items-center">
@@ -13,7 +11,7 @@ import Image from "next/image";
 
 //       <video className=" md:rotate-0 rotate-90" loop autoPlay playsInline >
 //       <source src="/soon.webm" type="video/webm" />
-      
+
 //       Your browser does not support the video tag.
 //     </video>
 //     </div>
@@ -34,3 +32,17 @@ export default function Home() {
     </>
   );
 }
+
+// import Footer from "./components/Footer";
+// import Hero from "./components/Hero";
+// import { What } from "./components/What";
+
+// export default function Home() {
+//   return (
+//     <div className="text-[#FDC501] bg-[#1C1B1B]">
+//       <Hero />
+//       <What />
+//       <Footer />
+//     </div>
+//   );
+// }
