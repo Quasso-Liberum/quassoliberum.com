@@ -21,7 +21,7 @@ const Desktop = () => {
         <Image className=" object-cover h-full" src="/images/qlverse.png" alt="xdfsd" fill />
       </div>
 
-            <div className="absolute  -z-10 backdrop-blur w-full h-full" />
+      <div className="absolute  -z-10 backdrop-blur w-full h-full" />
 
 
       <div className="absolute -z-10 bg-gradient-to-t  from-black to-transparent w-full h-full"></div>
