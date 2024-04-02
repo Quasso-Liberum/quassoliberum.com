@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@next/font": "^14.1.4",
+    "@splidejs/react-splide": "^0.7.12",
     "framer-motion": "^11.0.24",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-responsive-carousel": "^3.2.23",
     "sass": "^1.72.0"
   },
   "devDependencies": {

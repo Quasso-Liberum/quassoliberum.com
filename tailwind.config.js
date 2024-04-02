@@ -12,6 +12,13 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        qlYellow: "#FDC501",
+        qlPostGreen: "#696513",
+        qlPostRed: "#722400",
+        qlPostPink: "#7a0036",
+        qlPostBlack: "#060001",
+      },
     },
   },
   plugins: [],
