@@ -33,7 +33,7 @@
 //   );
 // }
 
-"use client"
+"use client";
 
 import { useEffect, useRef } from "react";
 import Footer from "./components/Footer";
@@ -43,7 +43,6 @@ import "./cursor.css";
 import Workshops from "./components/Workshops";
 import Competitions from "./components/Competitions";
 import Games from "./components/Games";
-
 
 export default function Home() {
   const blobRef = useRef(null);
@@ -64,14 +63,13 @@ export default function Home() {
     return () => window.removeEventListener("pointermove", handleMouseMove);
   }, []);
   return (
-
     <div className="text-[#FDC501] bg-[#1C1B1B]">
       <div ref={blobRef} id="blob"></div>
       <div id="blur"></div>
       <div className="relative z-10">
         <Hero />
         <What />
-        <Workshops /> 
+        <Workshops />
         <Competitions />
         <Games />
         <Footer />
