@@ -5,7 +5,7 @@ const Competitions = () => {
       <Desktop />
       <Mobile />
     </>
-  )
+  );
 };
 
 const Desktop = () => {
@@ -60,8 +60,9 @@ const Desktop = () => {
         })}
       </div>
       <button className="px-3 py-2 mt-10 rounded-3xl outline">Explore</button>
-    </div>)
-}
+    </div>
+  );
+};
 
 const Mobile = () => {
   let competitions = [
@@ -102,7 +103,7 @@ const Mobile = () => {
       <div className="flex flex-wrap items-center justify-center w-full gap-5">
         {competitions.map((competition, index) => {
           return (
-            <div key={index} className="rounded-xl">
+            <div key={index} className="rounded-xl mx-6">
               <Image
                 className="object-contain w-full h-full rounded-xl"
                 width={300}
@@ -115,7 +116,8 @@ const Mobile = () => {
         })}
       </div>
       <button className="px-3 py-2 mt-10 rounded-3xl outline">Explore</button>
-    </div>)
-}
+    </div>
+  );
+};
 
 export default Competitions;
