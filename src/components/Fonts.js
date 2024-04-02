@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 export const semiBold = localFont({
   src: [
     {
-      path: "../../../public/font/semi-bold.ttf",
+      path: "../../public/font/semi-bold.ttf",
     },
   ],
 });
@@ -11,7 +11,7 @@ export const semiBold = localFont({
 export const medium = localFont({
   src: [
     {
-      path: "../../../public/font/medium.ttf",
+      path: "../../public/font/medium.ttf",
     },
   ],
 });
@@ -19,7 +19,7 @@ export const medium = localFont({
 export const light = localFont({
   src: [
     {
-      path: "../../../public/font/light.ttf",
+      path: "../../public/font/light.ttf",
     },
   ],
 });
