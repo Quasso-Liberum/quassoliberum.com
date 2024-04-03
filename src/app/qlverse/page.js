@@ -47,8 +47,8 @@ const Desktop = () => {
     // </div>
 
     <>
-      <div className="text-[#FDC501] hidden flex-col lg:flex w-screen justify-center items-center h-screen px-10">
-        <div className="flex">
+      <div className="text-[#FDC501] hidden flex-col lg:flex w-screen justify-center items-center h-screen">
+        <div className="flex px-20">
           <div className={light.className}>
             <p className="text-2xl w-3/4 flex justify-center item-center">
               Quasso Liberum 11 introduces QL Verse, the Ultimate Project
@@ -62,8 +62,8 @@ const Desktop = () => {
             <div className="p-5 bg-[#343230] border border-[#FDC501] rounded-xl">
               <Image
                 src="/images/poster2.png"
-                width={700}
-                height={700}
+                width={925}
+                height={925}
                 alt="poster2"
               />
             </div>
@@ -81,7 +81,7 @@ const Desktop = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full px-20">
           <div className={light.className}>
             <p className="text-6xl">call for</p>
           </div>

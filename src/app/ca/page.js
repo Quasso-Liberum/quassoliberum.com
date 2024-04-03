@@ -81,18 +81,18 @@ const Desktop = () => {
     //   </div>
     // </div>
     <>
-      <div className="text-[#FDC501] hidden flex-col lg:flex w-screen justify-center items-center h-screen px-10">
-        <div className="flex">
+      <div className="text-[#FDC501] hidden flex-col lg:flex w-screen justify-center items-center h-screen ">
+        <div className="flex px-20">
           <div className={light.className}>
             <p className="text-2xl w-3/4 flex justify-center item-center">
-              Calling all Campus Ambassadors! Join Quasso Liberum 11,  the
-              ultimate National Tech Fest!  Gain leadership skills, network with
-              pros, and win prizes worth 10k!  Register at quassoliberum.com/ca.
-               Don't miss out - apply now!
+              Calling all Campus Ambassadors! Join Quasso Liberum 11, the
+              ultimate National Tech Fest! Gain leadership skills, network with
+              pros,and win prizes worth 10k! Register at quassoliberum.com/ca.
+              Don't miss out - apply now!
             </p>
           </div>
-          <div className="flex flex-col gap-8">
-            <div className="p-5 bg-[#343230] border border-[#FDC501] rounded-xl">
+          <div className="flex flex-col gap-8 ">
+            <div className="p-5 bg-[#343230] border border-[#FDC501] rounded-xl ">
               <Image
                 src="/images/poster1.png"
                 width={700}
@@ -113,8 +113,7 @@ const Desktop = () => {
             </div>
           </div>
         </div>
-
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full px-20">
           <div className={light.className}>
             <p className="text-6xl">call for</p>
           </div>
