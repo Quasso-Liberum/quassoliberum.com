@@ -68,7 +68,7 @@ const Mobile = () => {
           <p className="text-xs">Abhin Mohan: +918848733735</p>
           <p className="text-xs">Sooraj AT: +917994850124</p>
           <p className="text-xs">
-            <a href="https://www.quassoliberum.com/">quassoliberum.com</a>
+            <a href="https://www.quassoliberum.com/">www.quassoliberum.com</a>
           </p>
         </div>
       </div>

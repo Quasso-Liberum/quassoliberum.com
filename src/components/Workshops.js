@@ -16,7 +16,7 @@ const workshops = () => {
 
 //   return (
 //     <div className="lg:flex hidden flex-col items-center justify-center w-full min-h-screen my-20">
-//       <div className="pb-10 text-6xl">Workshop</div>
+//  x      <div className="pb-10 text-6xl">Workshop</div>
 //       <div className="flex flex-wrap items-center justify-center w-full gap-5">
 //         {workshopsList.map((workshop, index) => {
 //           return (
