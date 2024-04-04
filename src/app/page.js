@@ -43,6 +43,7 @@ import "./cursor.css";
 import Workshops from "@/components/Workshops";
 import Competitions from "@/components/Competitions";
 import Games from "@/components/Games";
+import Fashion from "@/components/Fashion";
 
 export default function Home() {
   const blobRef = useRef(null);
@@ -72,6 +73,7 @@ export default function Home() {
         <Workshops />
         <Competitions />
         <Games />
+        <Fashion />
         <Footer />
       </div>
     </div>

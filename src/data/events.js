@@ -80,6 +80,13 @@ export let workshopsList = [
 
 export let competitions = [
   {
+    title: "Pixel Perfect",
+    description:
+      "On behalf of QL 11, Tinkerhub CEV presents a web designing competition which offers the opportunity to unleash the coding potential, With prize pool of 3k",
+    image: "/images/competition/11c.jpg",
+    link: "https://www.yepdesk.com/quasso-liberum-11",
+  },
+  {
     title: "Babu Mesthri lite",
     description:
       "Civil Department CEV presents a competition named 'Babu Mesthiri Lite' which offers a platform to showcase the skills on Model making, with prize pool of 4k",
@@ -149,13 +156,6 @@ export let competitions = [
     image: "/images/competition/10c.jpg",
     link: "https://www.yepdesk.com/quasso-liberum-11",
   },
-  {
-    title: "Pixel Perfect",
-    description:
-      "On behalf of QL 11, Tinkerhub CEV presents a web designing competition which offers the opportunity to unleash the coding potential, With prize pool of 3k",
-    image: "/images/competition/11c.jpg",
-    link: "https://www.yepdesk.com/quasso-liberum-11",
-  },
 ];
 
 export let games = [
@@ -171,6 +171,16 @@ export let games = [
     description:
       "EC and Diploma Department CEV presents an interesting problem solving game Escape Room where the participants who unlock the mystery and escape, can win exciting prices",
     image: "/images/games/2g.png",
+    link: "https://www.yepdesk.com/quasso-liberum-11",
+  },
+];
+
+export let fashion = [
+  {
+    title: "Fashion Show",
+    description:
+      "The Fashion Show is a platform for students to showcase their creativity and talent in the field of fashion. The event will be judged by a panel of experts and the winners will be awarded exciting prizes.",
+    image: "/images/fasion.jpg",
     link: "https://www.yepdesk.com/quasso-liberum-11",
   },
 ];
