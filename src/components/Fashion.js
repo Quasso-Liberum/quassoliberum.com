@@ -25,7 +25,7 @@ const Desktop = () => {
       <div className={light.className}>
         <p className="w-[1200px] text-xl flex justify-center pt-5">
           Welcome to FashionTech Runway, a dynamic competition at Quasso
-          Liberum's Tech Fest! Witness designers merging fashion and technology
+          Liberums Tech Fest! Witness designers merging fashion and technology
           to create groundbreaking pieces. With a prize pool of 30k, contestants
           vie for the title of FashionTech Champion. Registration fee is 1.5k.
           Join us for a glimpse into the future of wearable innovation!
