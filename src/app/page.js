@@ -44,6 +44,8 @@ import Workshops from "@/components/Workshops";
 import Competitions from "@/components/Competitions";
 import Games from "@/components/Games";
 import Fashion from "@/components/Fashion";
+import Ideathon from "@/components/Ideathon";
+import Magnathon from "@/components/Magnathon";
 
 export default function Home() {
   const blobRef = useRef(null);
@@ -70,6 +72,8 @@ export default function Home() {
       <div className="relative z-10">
         <Hero />
         <What />
+        <Magnathon />
+        <Ideathon />
         <Workshops />
         <Competitions />
         <Games />
