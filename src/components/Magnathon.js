@@ -71,6 +71,13 @@ const Mobile = () => {
           Sustainable Development Goals for a better future.
         </p>
       </div>
+      <div>
+        <a href="https://magnathon2.ieeesbcev.org/">
+          <p className="px-3 py-2 mt-10 rounded-3xl outline hover:bg-qlYellow hover:text-qlPostBlack transition-colors duration-300">
+            Register
+          </p>
+        </a>
+      </div>
     </div>
   );
 };

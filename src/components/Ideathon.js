@@ -61,6 +61,13 @@ const Mobile = () => {
           Ideathon is a platform for students to showcase their innovative ideas and solutions to real-world problems. The event is open to all students, regardless of their field of study. The event will be judged by a panel of experts from the industry, academia, and government. The top three teams will receive cash prizes and certificates.
         </p>
       </div>
+      <div>
+        <a href="https://bit.ly/Ideathon-cev">
+          <p className="px-3 py-2 mt-10 rounded-3xl outline hover:bg-qlYellow hover:text-qlPostBlack transition-colors duration-300">
+            Register
+          </p>
+        </a>
+      </div>
     </div>
   )
 }
