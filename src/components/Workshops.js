@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Events from "./Events";
 
 const workshops = () => {
-  return <Events events={workshopsList} type="Workshop" />;
+  return <Events events={workshopsList} type="Workshops" />;
 };
 
 // const Desktop = () => {

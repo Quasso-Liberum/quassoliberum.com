@@ -4,10 +4,8 @@ import { useState } from "react";
 import { competitions } from "../data/events";
 import Events from "./Events";
 const Competitions = () => {
-  return <Events events={competitions} type="Competition" />;
-
+  return <Events events={competitions} type="Competitions" />;
 };
-
 
 // const Desktop = () => {
 //   const [selected, setSelected] = useState(null);
