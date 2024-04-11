@@ -46,6 +46,7 @@ import Games from "@/components/Games";
 import Fashion from "@/components/Fashion";
 import Ideathon from "@/components/Ideathon";
 import Magnathon from "@/components/Magnathon";
+import DanceCompetition from "@/components/DanceCompetition";
 
 export default function Home() {
   const blobRef = useRef(null);
@@ -72,6 +73,7 @@ export default function Home() {
       <div className="relative z-10">
         <Hero />
         <What />
+        <DanceCompetition />
         <Magnathon />
         <Ideathon />
         <Workshops />

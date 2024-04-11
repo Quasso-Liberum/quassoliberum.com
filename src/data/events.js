@@ -89,14 +89,14 @@ export let competitions = [
   {
     title: "Babu Mesthri lite",
     description:
-      "Civil Department CEV presents a competition named 'Babu Mesthiri Lite' which offers a platform to showcase the skills on Model making, with prize pool of 4k",
+      "Civil Department CEV presents a competition named 'Babu Mesthiri Lite' which offers a platform to showcase the skills on Model making for teams consisting of 4 members , with prize pool of 4k",
     image: "/images/competition/1c.jpg",
     link: "https://www.yepdesk.com/quasso-liberum-11",
   },
   {
     title: "Prueba: a technical quiz",
     description:
-      "As a part of Quasso Liberum 11 department of Civil Engineering presents a Technical Quiz Competition named 'PRUEBA', with prize pool of 4k",
+      "As a part of Quasso Liberum 11 department of Civil Engineering presents a Technical Quiz Competition for teams consisting of 2 members named 'PRUEBA', with prize pool of 4k",
     image: "/images/competition/2c.jpg",
     link: "https://www.yepdesk.com/quasso-liberum-11",
   },
