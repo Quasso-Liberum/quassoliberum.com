@@ -28,10 +28,7 @@ const Events = ({ events, type }) => {
 
 const Desktop = ({ events, type, color }) => {
   const [selected, setSelected] = useState(null);
-  const variants = {
-    open: { opacity: 1, x: 0 },
-    closed: { opacity: 0, x: "-100%" },
-  };
+
   return (
     <div className="lg:flex hidden flex-col items-center justify-center w-full min-h-screen my-20">
       <div className="pb-10 text-6xl">{type}</div>
