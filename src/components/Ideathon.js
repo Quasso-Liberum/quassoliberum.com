@@ -13,7 +13,7 @@ const Ideathon = () => {
 
 const Desktop = () => {
   return (
-    <div className="w-full h-screen justify-center hidden lg:flex flex-col px-20 items-center">
+    <div className="w-full h-screen justify-center hidden lg:flex flex-col px-40 items-center">
       <p className="text-6xl pb-10">
         Ideathon
       </p>

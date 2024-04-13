@@ -40,11 +40,12 @@ const Desktop = () => {
         </div>
       </div>
       <div className={semiBold.className}>
-        <p className="text-3xl mb-5">Location</p>
-        <div>
+        <p className="text-3xl mb-5 w-full justify-center flex">Location</p>
+        <div >
           <iframe
+            className="rounded-lg"
             width="200"
-            height="150"
+            height="126"
             frameborder="0"
             scrolling="no"
             marginHeight="0"
@@ -89,6 +90,7 @@ const Mobile = () => {
       <div className="flex flex-col space-y-5">
         <p className="text-2xl w-full flex justify-center">Location</p>
         <iframe
+          className="rounded-lg"
           width="200"
           height="150"
           frameborder="0"

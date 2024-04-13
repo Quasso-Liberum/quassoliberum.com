@@ -2,10 +2,12 @@
 import { Navbar } from "./Navbar";
 import { semiBold, light, medium } from "./Fonts";
 import Image from "next/image";
+
 // import style from "./Hero.module.css";
 import "./Hero.css";
 import { useEffect, useRef } from "react";
 import Header from "@/components/Header";
+
 
 export default function Hero() {
   return (
@@ -80,6 +82,7 @@ const Desktop = () => {
           <div className={semiBold.className}>
             <p className="text-4xl">National level techfest</p>
           </div>
+
         </div>
         <div className="w-full h-full flex items-end">
           <div className="flex w-full justify-between">
@@ -97,6 +100,11 @@ const Desktop = () => {
       </div>
     </div>
   );
+
+  function onUpdate({ clientX }) {
+    // Update the X rotation based on the mouse position
+    meshRef.current.rotation.x = (clientX / window.innerWidth) * 2 * 0.1 - 1 * 0.1
+  }
 };
 
 const Mobile = () => {
