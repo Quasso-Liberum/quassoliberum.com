@@ -73,13 +73,13 @@ export default function Home() {
       <div className="relative z-10">
         <Hero />
         <What />
-        <DanceCompetition />
+        {/* <DanceCompetition /> */}
         <Magnathon />
         <Ideathon />
         <Workshops />
         <Competitions />
         <Games />
-        <Fashion />
+        {/* <Fashion /> */}
         <Footer />
       </div>
     </div>

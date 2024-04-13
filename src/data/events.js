@@ -76,6 +76,18 @@ export let workshopsList = [
     image: "/images/workshop/11w.jpg",
     link: "https://www.yepdesk.com/quasso-liberum-11",
   },
+  {
+    title: "Genesis AI",
+    description: "Join us for an immersive workshop on the fascinating world of generative AI, where creativity meets technology . In this interactive session, participants will dive into the fundamentals of generative AI and discover how it's revolutionizing various fields, from art and music to storytelling and design. Get activity points upto 20",
+    image: "/images/workshop/12w.jpg",
+    link: "https://www.yepdesk.com/quasso-liberum-11",
+  },
+  {
+    title: "Flutter Flex",
+    description: "MCA Department presents hands-on workshop on Flutter for building apps. Join us for an immersive learning experience.",
+    image: "/images/workshop/13w.jpg",
+    link: "https://www.yepdesk.com/quasso-liberum-11",
+  }
 ];
 
 export let competitions = [
@@ -156,6 +168,20 @@ export let competitions = [
     image: "/images/competition/10c.jpg",
     link: "https://www.yepdesk.com/quasso-liberum-11",
   },
+  {
+    title: "Clash of Minds",
+    description:
+      "Here's your chance to engage in thought-provoking discourse! Prepare to argue and win. We're thrilled to invite you to participate in the Debate Competition hosted by MCA Department. This competition offers a platform to showcase your persuasive skills and passion for shaping opinions. Don't miss out on this chance to be part of this intellectually stimulating event.⚡. Get a prize pool of 1.5k",
+    image: "/images/competition/12c.jpg",
+    link: "https://www.yepdesk.com/quasso-liberum-11",
+  },
+  {
+    title: "Prompt Artistry",
+    description:
+      "Here's your chance to engage in thought-provoking discourse! Prepare to argue and win. We're thrilled to invite you to participate in the Debate Competition hosted by MCA Department. This competition offers a platform to showcase your persuasive skills and passion for shaping opinions. Don't miss out on this chance to be part of this intellectually stimulating event.⚡. Get a prize pool of 1.5k",
+    image: "/images/competition/13c.jpeg",
+    link: "https://www.yepdesk.com/quasso-liberum-11",
+  }
 ];
 
 export let games = [
