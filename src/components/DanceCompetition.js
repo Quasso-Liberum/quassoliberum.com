@@ -14,7 +14,7 @@ export default function DanceCompetition() {
 const Desktop = () => {
   return (
     <div className="flex-col items-center justify-center hidden w-full pb-20 lg:flex">
-      <p className="pb-10 text-6xl">MISTIC MOTIONS</p>
+      <p className="pb-10 text-6xl">Mistic Motions</p>
       <Image
         className="rounded-xl"
         src="/images/dance.jpg"
@@ -45,10 +45,10 @@ const Desktop = () => {
 const Mobile = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full mb-10 lg:hidden">
-      <p className="mb-10 text-5xl">Fashion Show</p>
+      <p className="mb-10 text-5xl">Mistic Motions</p>
       <Image
         className="rounded-lg"
-        src="/images/fasion.jpg"
+        src="/images/dance.jpg"
         width={350}
         height={500}
         alt="fashion show banner"
