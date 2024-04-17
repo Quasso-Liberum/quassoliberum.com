@@ -1,37 +1,29 @@
 export const links = [
     {
         title: "Home",
-        href: "/"
+        href: "#main"
     },
     {
         title: "About",
-        href: "/about"
+        href: "#about"
     },
     {
         title: "Events",
-        href: "/events"
+        href: "#events"
     },
     {
         title: "Contact",
-        href: "/"
+        href: "#contact"
     }
 ]
 
 export const footerLinks = [
     {
         title: "Facebook",
-        href: "/"
-    },
-    {
-        title: "LinkedIn",
-        href: "/"
+        href: "https://www.facebook.com/quasso.liberum.90"
     },
     {
         title: "Instagram",
-        href: "/"
+        href: "https://www.instagram.com/quassoliberum"
     },
-    {
-        title: "Twitter",
-        href: "/"
-    }
 ]

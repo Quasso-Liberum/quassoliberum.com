@@ -3,10 +3,10 @@ import { light, semiBold } from "./Fonts";
 
 export default function Footer() {
   return (
-    <>
+    <div id="contact">
       <Desktop />
       <Mobile />
-    </>
+    </div>
   );
 }
 

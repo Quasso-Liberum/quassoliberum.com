@@ -30,7 +30,7 @@ const Desktop = ({ events, type, color }) => {
   const [selected, setSelected] = useState(null);
 
   return (
-    <div className="lg:flex hidden flex-col items-center justify-center w-full min-h-screen my-20">
+    <div className="lg:flex hidden flex-col items-center justify-center w-full min-h-screen my-20" id="events">
       <div className="pb-10 text-6xl">{type}</div>
       <div className="flex flex-wrap items-center justify-center w-full gap-5">
         {events?.map((event, index) => {

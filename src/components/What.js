@@ -13,10 +13,10 @@ const regular = localFont({
 
 export const What = () => {
   return (
-    <>
+    <div id="about">
       <Desktop />
       <Mobile />
-    </>
+    </div>
   );
 };
 

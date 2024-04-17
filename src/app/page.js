@@ -49,6 +49,7 @@ import Magnathon from "@/components/Magnathon";
 import DanceCompetition from "@/components/DanceCompetition";
 import Conclave from "@/components/Conclave";
 import Metapass from "@/components/Metapass";
+import NeelaPass from "@/components/NeelaPass";
 
 export default function Home() {
   const blobRef = useRef(null);
@@ -77,6 +78,7 @@ export default function Home() {
         <What />
         {/* <DanceCompetition /> */}
         <Metapass />
+        <NeelaPass />
         <Conclave />
         <Magnathon />
         <Ideathon />

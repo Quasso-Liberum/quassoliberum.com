@@ -11,10 +11,10 @@ import Header from "@/components/Header";
 
 export default function Hero() {
   return (
-    <>
+    <div id="main">
       <Desktop />
       <Mobile />
-    </>
+    </div>
   );
 }
 
